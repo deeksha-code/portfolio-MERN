@@ -1,0 +1,54 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media only screen and (max-width: 34em) {
+    .header__links {
+        display: none;
+    }
+
+    .header__content {
+        padding: 1rem 2rem;
+    }
+
+    .about__content {
+        flex-direction: column;
+    }
+
+    .projects__content {
+        padding: 0 2rem;
+    }
+
+    .projects__row-content {
+        padding: 2rem 3rem;
+        height: 52rem;
+    }
+
+    .projects__row-content-links {
+        flex-direction: column;
+    }
+
+    .contact__btn {
+        width: 100%;
+    }
+
+    .main-footer__upper {
+        flex-direction: column;
+    }
+
+    .main-footer__row-1 {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .header__main-ham-menu-cont {
+        display: block;
+    }
+
+    .header__sm-menu--active {
+        visibility: visible;
+        opacity: 1;
+    }
+}
