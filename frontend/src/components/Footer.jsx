@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="main-footer__row-1">
             <h2 className="heading heading-sm ">Deeksha Shetty</h2>
             <p className="main-footer__short-desc">
-              An experienced MERN Developer focussed on building Websites and
+              An experienced Full Stack Developer focused on building Websites and
               Web Applications that leads to the success of the overall product
             </p>
           </div>
